@@ -4,10 +4,14 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.zy</groupId>
-	<artifactId>study</artifactId>
+	<artifactId>study-online-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>study-online-parent</name>
 	<description>study-online-parent</description>
+	<modules>
+		<module>../study-online-content</module>
+	</modules>
+
 	<packaging>pom</packaging>
 
 

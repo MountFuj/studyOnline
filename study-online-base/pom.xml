@@ -10,7 +10,7 @@
 
     <parent>
         <groupId>com.zy</groupId>
-        <artifactId>study</artifactId>
+        <artifactId>study-online-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <properties>
