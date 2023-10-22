@@ -63,3 +63,6 @@ Content-Type: application/json
 
 ### 删除课程计划
 DELETE {{content_host}}/content/teachplan/43
+
+### 查询课程教师
+GET  {{content_host}}/content/courseTeacher/list/72
