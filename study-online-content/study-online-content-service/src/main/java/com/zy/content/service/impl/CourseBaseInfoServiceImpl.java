@@ -7,16 +7,12 @@ import com.zy.base.exception.RestErrorResponse;
 import com.zy.base.exception.StudyOnlineException;
 import com.zy.base.model.PageParams;
 import com.zy.base.model.PageResult;
-import com.zy.content.mapper.CourseBaseMapper;
-import com.zy.content.mapper.CourseCategoryMapper;
-import com.zy.content.mapper.CourseMarketMapper;
+import com.zy.content.mapper.*;
 import com.zy.content.model.dto.AddCourseDto;
 import com.zy.content.model.dto.CourseBaseInfoDto;
 import com.zy.content.model.dto.EditCourseDto;
 import com.zy.content.model.dto.QueryCourseParamsDto;
-import com.zy.content.model.po.CourseBase;
-import com.zy.content.model.po.CourseCategory;
-import com.zy.content.model.po.CourseMarket;
+import com.zy.content.model.po.*;
 import com.zy.content.service.CourseBaseInfoService;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.BeanUtils;
@@ -40,7 +36,11 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
     @Autowired
     private CourseMarketMapper courseMarketMapper;
     @Autowired
+    private TeachplanMapper teachplanMapper;
+    @Autowired
     private CourseCategoryMapper courseCategoryMapper;
+    @Autowired
+    private CourseTeacherMapper courseTeacherMapper;
     @Override
     public PageResult<CourseBase> queryCourseBaseList(PageParams pageParams, QueryCourseParamsDto queryCourseParamsDto) {
         //创建查询条件
@@ -205,5 +205,35 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         }
 
         return getCourseBaseInfo(courseId);
+    }
+
+    @Override
+    public void deleteCourse(Long courseId) {
+        CourseBase courseBase = courseBaseMapper.selectById(courseId);
+        //当审核状态为已提交时不可删除
+        if(courseBase.getAuditStatus()!="202003"){
+            //删除课程相关的基本信息、营销信息、课程计划、课程教师信息。
+            //删除营销信息
+            CourseMarket courseMarket = courseMarketMapper.selectById(courseId);
+            if(courseMarket!=null){
+                courseMarketMapper.deleteById(courseMarket);
+            }
+            //删除课程计划信息
+            LambdaQueryWrapper<Teachplan> teachplanLambdaQueryWrapper = new LambdaQueryWrapper<>();
+            teachplanLambdaQueryWrapper.eq(Teachplan::getCourseId,courseId);
+            List<Teachplan> teachplans = teachplanMapper.selectList(teachplanLambdaQueryWrapper);
+            if(teachplans.size()!=0){
+                teachplanMapper.delete(teachplanLambdaQueryWrapper);
+            }
+            //删除教师信息
+            LambdaQueryWrapper<CourseTeacher> courseTeacherLambdaQueryWrapper = new LambdaQueryWrapper<>();
+            courseTeacherLambdaQueryWrapper.eq(CourseTeacher::getCourseId,courseId);
+            List<CourseTeacher> courseTeachers = courseTeacherMapper.selectList(courseTeacherLambdaQueryWrapper);
+            if(courseTeachers.size()!=0){
+                courseTeacherMapper.delete(courseTeacherLambdaQueryWrapper);
+            }
+            //删除课程基本信息
+            courseBaseMapper.deleteById(courseBase);
+        }
     }
 }
