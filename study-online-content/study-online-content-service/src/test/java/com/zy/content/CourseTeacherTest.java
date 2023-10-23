@@ -2,6 +2,8 @@ package com.zy.content;
 
 import com.zy.base.model.PageParams;
 import com.zy.base.model.PageResult;
+import com.zy.content.model.dto.AddCourseDto;
+import com.zy.content.model.dto.AddCourseTeacherDto;
 import com.zy.content.model.dto.QueryCourseParamsDto;
 import com.zy.content.model.po.CourseBase;
 import com.zy.content.model.po.CourseTeacher;
@@ -27,5 +29,15 @@ public class CourseTeacherTest {
     void testCourseTeacher(){
         List<CourseTeacher> allTeacher = courseTeacherService.getAllTeacher(72L);
         System.out.println(allTeacher);
+    }
+
+    @Test
+    void testCourseAdd(){
+        AddCourseTeacherDto addCourseTeacherDto = new AddCourseTeacherDto();
+        addCourseTeacherDto.setCourseId(75L);
+        addCourseTeacherDto.setTeacherName("王老师");
+        addCourseTeacherDto.setPosition("教师职位");
+        addCourseTeacherDto.setIntroduction("教师简介教师简介教师简介教师简介");
+        courseTeacherService.saveTeacher(addCourseTeacherDto);
     }
 }
