@@ -1,0 +1,430 @@
+2023-10-25 21:02:45,436 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-10-25 21:02:45,436 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-10-25 21:02:46,281 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-10-25 21:02:46,281 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-10-25 21:02:46,283 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.media.mapper]' package. Please check your configuration.
+2023-10-25 21:02:46,283 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.media.mapper]' package. Please check your configuration.
+2023-10-25 21:02:46,391 INFO [main][GenericScope.java:295] - BeanFactory id=5ed861cc-8fec-30d4-b858-4fc88c9d46b1
+2023-10-25 21:02:46,391 INFO [main][GenericScope.java:295] - BeanFactory id=5ed861cc-8fec-30d4-b858-4fc88c9d46b1
+2023-10-25 21:02:46,847 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-10-25 21:02:46,847 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-10-25 21:02:46,861 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-10-25 21:02:46,861 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-10-25 21:02:46,861 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-10-25 21:02:46,861 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-10-25 21:02:46,862 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-10-25 21:02:46,862 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-10-25 21:02:46,864 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2023-10-25 21:02:46,864 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2023-10-25 21:02:46,864 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-10-25 21:02:46,864 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-10-25 21:02:46,865 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-10-25 21:02:46,865 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-10-25 21:02:46,868 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-10-25 21:02:46,868 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-10-25 21:02:47,065 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-10-25 21:02:47,065 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-10-25 21:02:47,065 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1598 ms
+2023-10-25 21:02:47,065 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1598 ms
+2023-10-25 21:02:47,157 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFileServiceImpl': Unsatisfied dependency expressed through field 'mediaFilesMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.zy.media.mapper.MediaFilesMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-10-25 21:02:47,157 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFileServiceImpl': Unsatisfied dependency expressed through field 'mediaFilesMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.zy.media.mapper.MediaFilesMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-10-25 21:02:47,159 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-10-25 21:02:47,159 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-10-25 21:02:47,175 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-10-25 21:02:47,175 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-10-25 21:02:47,431 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mediaFilesMapper in com.zy.media.service.impl.MediaFileServiceImpl required a bean of type 'com.zy.media.mapper.MediaFilesMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zy.media.mapper.MediaFilesMapper' in your configuration.
+
+2023-10-25 21:02:47,433 WARN [Thread-9][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-10-25 21:02:47,431 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mediaFilesMapper in com.zy.media.service.impl.MediaFileServiceImpl required a bean of type 'com.zy.media.mapper.MediaFilesMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zy.media.mapper.MediaFilesMapper' in your configuration.
+
+2023-10-25 21:02:47,433 WARN [Thread-9][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-10-25 21:02:47,434 WARN [Thread-9][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-10-25 21:02:47,434 WARN [Thread-9][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-10-25 21:03:26,436 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-10-25 21:03:26,436 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-10-25 21:03:27,266 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-10-25 21:03:27,266 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-10-25 21:03:27,269 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.media.mapper]' package. Please check your configuration.
+2023-10-25 21:03:27,269 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.media.mapper]' package. Please check your configuration.
+2023-10-25 21:03:27,368 INFO [main][GenericScope.java:295] - BeanFactory id=5ed861cc-8fec-30d4-b858-4fc88c9d46b1
+2023-10-25 21:03:27,368 INFO [main][GenericScope.java:295] - BeanFactory id=5ed861cc-8fec-30d4-b858-4fc88c9d46b1
+2023-10-25 21:03:27,824 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-10-25 21:03:27,824 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-10-25 21:03:27,838 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-10-25 21:03:27,838 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-10-25 21:03:27,838 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-10-25 21:03:27,838 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-10-25 21:03:27,839 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-10-25 21:03:27,839 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-10-25 21:03:27,841 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2023-10-25 21:03:27,841 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2023-10-25 21:03:27,841 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-10-25 21:03:27,841 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-10-25 21:03:27,842 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-10-25 21:03:27,842 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-10-25 21:03:27,846 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-10-25 21:03:27,846 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-10-25 21:03:28,046 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-10-25 21:03:28,046 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-10-25 21:03:28,046 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1589 ms
+2023-10-25 21:03:28,046 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1589 ms
+2023-10-25 21:03:28,143 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFileServiceImpl': Unsatisfied dependency expressed through field 'mediaFilesMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.zy.media.mapper.MediaFilesMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-10-25 21:03:28,143 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFileServiceImpl': Unsatisfied dependency expressed through field 'mediaFilesMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.zy.media.mapper.MediaFilesMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-10-25 21:03:28,144 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-10-25 21:03:28,144 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-10-25 21:03:28,159 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-10-25 21:03:28,159 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-10-25 21:03:28,398 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mediaFilesMapper in com.zy.media.service.impl.MediaFileServiceImpl required a bean of type 'com.zy.media.mapper.MediaFilesMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zy.media.mapper.MediaFilesMapper' in your configuration.
+
+2023-10-25 21:03:28,398 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mediaFilesMapper in com.zy.media.service.impl.MediaFileServiceImpl required a bean of type 'com.zy.media.mapper.MediaFilesMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zy.media.mapper.MediaFilesMapper' in your configuration.
+
+2023-10-25 21:03:28,400 WARN [Thread-8][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-10-25 21:03:28,400 WARN [Thread-8][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-10-25 21:03:28,401 WARN [Thread-8][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-10-25 21:03:28,401 WARN [Thread-8][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-10-25 21:07:10,699 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-10-25 21:07:10,699 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-10-25 21:07:11,941 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-10-25 21:07:11,941 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-10-25 21:07:11,945 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.media.mapper]' package. Please check your configuration.
+2023-10-25 21:07:11,945 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.media.mapper]' package. Please check your configuration.
+2023-10-25 21:07:12,060 INFO [main][GenericScope.java:295] - BeanFactory id=5ed861cc-8fec-30d4-b858-4fc88c9d46b1
+2023-10-25 21:07:12,060 INFO [main][GenericScope.java:295] - BeanFactory id=5ed861cc-8fec-30d4-b858-4fc88c9d46b1
+2023-10-25 21:07:12,595 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-10-25 21:07:12,595 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-10-25 21:07:12,632 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-10-25 21:07:12,632 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-10-25 21:07:12,633 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-10-25 21:07:12,633 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-10-25 21:07:12,634 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-10-25 21:07:12,634 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-10-25 21:07:12,640 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2023-10-25 21:07:12,640 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2023-10-25 21:07:12,640 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-10-25 21:07:12,640 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-10-25 21:07:12,641 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-10-25 21:07:12,641 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-10-25 21:07:12,648 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-10-25 21:07:12,648 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-10-25 21:07:12,910 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-10-25 21:07:12,910 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-10-25 21:07:12,911 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 2186 ms
+2023-10-25 21:07:12,911 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 2186 ms
+2023-10-25 21:07:13,022 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFileServiceImpl': Unsatisfied dependency expressed through field 'mediaFilesMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.zy.media.mapper.MediaFilesMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-10-25 21:07:13,022 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFileServiceImpl': Unsatisfied dependency expressed through field 'mediaFilesMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.zy.media.mapper.MediaFilesMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-10-25 21:07:13,025 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-10-25 21:07:13,025 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-10-25 21:07:13,047 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-10-25 21:07:13,047 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-10-25 21:07:13,323 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mediaFilesMapper in com.zy.media.service.impl.MediaFileServiceImpl required a bean of type 'com.zy.media.mapper.MediaFilesMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zy.media.mapper.MediaFilesMapper' in your configuration.
+
+2023-10-25 21:07:13,323 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mediaFilesMapper in com.zy.media.service.impl.MediaFileServiceImpl required a bean of type 'com.zy.media.mapper.MediaFilesMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zy.media.mapper.MediaFilesMapper' in your configuration.
+
+2023-10-25 21:07:13,325 WARN [Thread-8][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-10-25 21:07:13,325 WARN [Thread-8][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-10-25 21:07:13,326 WARN [Thread-8][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-10-25 21:07:13,326 WARN [Thread-8][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-10-25 21:09:43,387 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-10-25 21:09:43,387 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-10-25 21:09:44,196 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-10-25 21:09:44,196 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-10-25 21:09:44,200 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.media.mapper]' package. Please check your configuration.
+2023-10-25 21:09:44,200 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.media.mapper]' package. Please check your configuration.
+2023-10-25 21:09:44,296 INFO [main][GenericScope.java:295] - BeanFactory id=5ed861cc-8fec-30d4-b858-4fc88c9d46b1
+2023-10-25 21:09:44,296 INFO [main][GenericScope.java:295] - BeanFactory id=5ed861cc-8fec-30d4-b858-4fc88c9d46b1
+2023-10-25 21:09:44,768 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-10-25 21:09:44,768 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-10-25 21:09:44,780 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-10-25 21:09:44,780 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-10-25 21:09:44,781 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-10-25 21:09:44,781 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-10-25 21:09:44,781 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-10-25 21:09:44,781 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-10-25 21:09:44,784 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2023-10-25 21:09:44,784 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2023-10-25 21:09:44,784 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-10-25 21:09:44,784 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-10-25 21:09:44,784 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-10-25 21:09:44,784 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-10-25 21:09:44,788 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-10-25 21:09:44,788 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-10-25 21:09:44,994 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-10-25 21:09:44,994 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-10-25 21:09:44,995 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1590 ms
+2023-10-25 21:09:44,995 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1590 ms
+2023-10-25 21:09:45,998 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-10-25 21:09:45,998 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-10-25 21:09:45,999 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-10-25 21:09:45,999 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-10-25 21:09:46,003 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-10-25 21:09:46,003 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-10-25 21:09:46,004 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-10-25 21:09:46,004 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-10-25 21:09:46,026 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-10-25 21:09:46,026 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-10-25 21:09:46,030 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-10-25 21:09:46,030 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-10-25 21:09:46,031 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-10-25 21:09:46,031 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-10-25 21:09:46,032 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-10-25 21:09:46,032 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-10-25 21:09:46,034 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-10-25 21:09:46,034 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-10-25 21:09:46,034 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-10-25 21:09:46,034 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-10-25 21:09:46,034 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-10-25 21:09:46,034 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-10-25 21:09:46,035 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-10-25 21:09:46,035 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-10-25 21:09:46,035 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-10-25 21:09:46,035 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-10-25 21:09:46,037 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-10-25 21:09:46,037 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-10-25 21:09:46,039 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-10-25 21:09:46,039 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-10-25 21:09:46,040 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-10-25 21:09:46,040 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-10-25 21:09:46,040 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-10-25 21:09:46,040 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-10-25 21:09:46,040 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-10-25 21:09:46,040 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-10-25 21:09:46,040 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-10-25 21:09:46,040 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-10-25 21:09:46,041 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-10-25 21:09:46,041 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-10-25 21:09:46,195 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-25 21:09:46,195 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-25 21:09:48,148 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-10-25 21:09:48,148 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-10-25 21:09:48,154 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-10-25 21:09:48,154 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-10-25 21:09:48,206 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-10-25 21:09:48,206 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-10-25 21:09:48,298 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@b1d19ff'
+2023-10-25 21:09:48,298 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@b1d19ff'
+2023-10-25 21:09:48,300 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-10-25 21:09:48,300 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-10-25 21:09:51,211 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-10-25 21:09:51,211 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-10-25 21:09:51,354 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-10-25 21:09:51,354 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-10-25 21:09:51,355 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-10-25 21:09:51,355 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-10-25 21:09:51,357 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-10-25 21:09:51,357 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-10-25 21:09:51,362 DEBUG [main][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-10-25 21:09:51,362 DEBUG [main][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-10-25 21:09:51,363 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-10-25 21:09:51,363 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-10-25 21:09:51,368 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-25 21:09:51,368 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-25 21:09:51,380 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-10-25 21:09:51,380 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-10-25 21:09:51,381 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=169.254.87.149&serviceName=studyOnline%40%40media-api&udpPort=64766&clusters=DEFAULT, body: {}
+2023-10-25 21:09:51,381 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=169.254.87.149&serviceName=studyOnline%40%40media-api&udpPort=64766&clusters=DEFAULT, body: {}
+2023-10-25 21:09:51,517 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63050"]
+2023-10-25 21:09:51,517 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63050"]
+2023-10-25 21:09:51,550 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63050 (http) with context path '/media'
+2023-10-25 21:09:51,550 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63050 (http) with context path '/media'
+2023-10-25 21:09:51,556 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-10-25 21:09:51,556 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-10-25 21:09:51,557 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service studyOnline@@media-api with instance: Instance{instanceId='null', ip='169.254.87.149', port=63050, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-10-25 21:09:51,557 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service studyOnline@@media-api with instance: Instance{instanceId='null', ip='169.254.87.149', port=63050, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-10-25 21:09:51,558 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/ns/instance?app=unknown&groupName=studyOnline&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=dev&port=63050&enable=true&healthy=true&clusterName=DEFAULT&ip=169.254.87.149&weight=1.0&ephemeral=true&serviceName=studyOnline%40%40media-api, body: {}
+2023-10-25 21:09:51,558 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/ns/instance?app=unknown&groupName=studyOnline&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=dev&port=63050&enable=true&healthy=true&clusterName=DEFAULT&ip=169.254.87.149&weight=1.0&ephemeral=true&serviceName=studyOnline%40%40media-api, body: {}
+2023-10-25 21:09:51,796 INFO [main][NacosServiceRegistry.java:75] - nacos registry, studyOnline media-api 169.254.87.149:63050 register finished
+2023-10-25 21:09:51,796 INFO [main][NacosServiceRegistry.java:75] - nacos registry, studyOnline media-api 169.254.87.149:63050 register finished
+2023-10-25 21:09:52,514 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=169.254.87.149&serviceName=studyOnline%40%40media-api&udpPort=64766&clusters=DEFAULT, body: {}
+2023-10-25 21:09:52,514 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=169.254.87.149&serviceName=studyOnline%40%40media-api&udpPort=64766&clusters=DEFAULT, body: {}
+2023-10-25 21:09:52,537 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: studyOnline@@media-api@@DEFAULT -> [{"instanceId":"169.254.87.149#63050#DEFAULT#studyOnline@@media-api","ip":"169.254.87.149","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"studyOnline@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2023-10-25 21:09:52,537 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: studyOnline@@media-api@@DEFAULT -> [{"instanceId":"169.254.87.149#63050#DEFAULT#studyOnline@@media-api","ip":"169.254.87.149","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"studyOnline@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2023-10-25 21:09:52,538 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@198efd84 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@76db9048
+2023-10-25 21:09:52,538 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@198efd84 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@76db9048
+2023-10-25 21:09:52,543 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: studyOnline@@media-api@@DEFAULT -> [{"instanceId":"169.254.87.149#63050#DEFAULT#studyOnline@@media-api","ip":"169.254.87.149","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"studyOnline@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2023-10-25 21:09:52,543 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: studyOnline@@media-api@@DEFAULT -> [{"instanceId":"169.254.87.149#63050#DEFAULT#studyOnline@@media-api","ip":"169.254.87.149","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"studyOnline@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2023-10-25 21:09:52,835 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"hosts\":[{\"ip\":\"169.254.87.149\",\"port\":63050,\"valid\":true,\"healthy\":true,\"marked\":false,\"instanceId\":\"169.254.87.149#63050#DEFAULT#studyOnline@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"enabled\":true,\"weight\":1.0,\"clusterName\":\"DEFAULT\",\"serviceName\":\"studyOnline@@media-api\",\"ephemeral\":true}],\"dom\":\"studyOnline@@media-api\",\"name\":\"studyOnline@@media-api\",\"cacheMillis\":10000,\"lastRefTime\":1698239392816,\"checksum\":\"33ad73244199a06fde3e95d19ec86144\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"metadata\":{}}","lastRefTime":101503116982600} from /169.254.87.149
+2023-10-25 21:09:52,835 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"hosts\":[{\"ip\":\"169.254.87.149\",\"port\":63050,\"valid\":true,\"healthy\":true,\"marked\":false,\"instanceId\":\"169.254.87.149#63050#DEFAULT#studyOnline@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"enabled\":true,\"weight\":1.0,\"clusterName\":\"DEFAULT\",\"serviceName\":\"studyOnline@@media-api\",\"ephemeral\":true}],\"dom\":\"studyOnline@@media-api\",\"name\":\"studyOnline@@media-api\",\"cacheMillis\":10000,\"lastRefTime\":1698239392816,\"checksum\":\"33ad73244199a06fde3e95d19ec86144\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"metadata\":{}}","lastRefTime":101503116982600} from /169.254.87.149
+2023-10-25 21:09:53,566 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-10-25 21:09:53,566 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-10-25 21:09:53,574 INFO [main][StartupInfoLogger.java:61] - Started MediaApplication in 15.253 seconds (JVM running for 17.673)
+2023-10-25 21:09:53,574 INFO [main][StartupInfoLogger.java:61] - Started MediaApplication in 15.253 seconds (JVM running for 17.673)
+2023-10-25 21:09:53,578 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] media-api.yaml+studyOnline+dev
+2023-10-25 21:09:53,578 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] media-api.yaml+studyOnline+dev
+2023-10-25 21:09:53,579 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api.yaml, group=studyOnline, cnt=1
+2023-10-25 21:09:53,579 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api.yaml, group=studyOnline, cnt=1
+2023-10-25 21:09:53,579 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] media-api+studyOnline+dev
+2023-10-25 21:09:53,579 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] media-api+studyOnline+dev
+2023-10-25 21:09:53,580 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api, group=studyOnline, cnt=1
+2023-10-25 21:09:53,580 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api, group=studyOnline, cnt=1
+2023-10-25 21:09:53,584 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-apistudyOnlinedevmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-25 21:09:53,584 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-apistudyOnlinedevmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-25 21:09:53,584 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@44a75859]
+2023-10-25 21:09:53,584 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@44a75859]
+2023-10-25 21:09:53,586 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] swagger-dev.yaml+studyOnline-common+dev
+2023-10-25 21:09:53,586 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] swagger-dev.yaml+studyOnline-common+dev
+2023-10-25 21:09:53,587 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=swagger-dev.yaml, group=studyOnline-common, cnt=1
+2023-10-25 21:09:53,587 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=swagger-dev.yaml, group=studyOnline-common, cnt=1
+2023-10-25 21:09:53,592 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-25 21:09:53,592 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-25 21:09:53,593 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@44a75859]
+2023-10-25 21:09:53,593 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@44a75859]
+2023-10-25 21:09:53,600 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-25 21:09:53,600 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@44a75859]
+2023-10-25 21:09:53,600 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-25 21:09:53,600 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@44a75859]
+2023-10-25 21:09:53,601 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] media-api-dev.yaml+studyOnline+dev
+2023-10-25 21:09:53,601 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] media-api-dev.yaml+studyOnline+dev
+2023-10-25 21:09:53,601 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api-dev.yaml, group=studyOnline, cnt=1
+2023-10-25 21:09:53,601 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api-dev.yaml, group=studyOnline, cnt=1
+2023-10-25 21:09:53,609 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] logging-dev.yaml+studyOnline-common+dev
+2023-10-25 21:09:53,609 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] logging-dev.yaml+studyOnline-common+dev
+2023-10-25 21:09:53,610 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=studyOnline-common, cnt=1
+2023-10-25 21:09:53,610 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=studyOnline-common, cnt=1
+2023-10-25 21:09:53,618 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] media-service-dev.yaml+studyOnline+dev
+2023-10-25 21:09:53,618 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] media-service-dev.yaml+studyOnline+dev
+2023-10-25 21:09:53,619 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=media-service-dev.yaml, group=studyOnline, cnt=1
+2023-10-25 21:09:53,619 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=media-service-dev.yaml, group=studyOnline, cnt=1
+2023-10-25 21:09:56,373 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-25 21:09:56,373 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-25 21:09:56,560 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-25 21:09:56,560 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-25 21:09:56,561 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {beat={"port":63050,"ip":"169.254.87.149","weight":1.0,"serviceName":"studyOnline@@media-api","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2023-10-25 21:09:56,561 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {beat={"port":63050,"ip":"169.254.87.149","weight":1.0,"serviceName":"studyOnline@@media-api","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2023-10-25 21:09:56,679 WARN [Thread-38][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-10-25 21:09:56,679 WARN [Thread-9][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-10-25 21:09:56,679 WARN [Thread-38][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-10-25 21:09:56,679 WARN [Thread-9][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-10-25 21:09:56,679 WARN [Thread-38][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-10-25 21:09:56,679 WARN [Thread-38][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-10-25 21:09:56,680 WARN [Thread-9][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-10-25 21:09:56,680 WARN [Thread-9][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-10-25 21:09:57,225 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-10-25 21:09:57,225 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-10-25 21:09:57,228 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-10-25 21:09:57,228 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-10-25 21:09:57,229 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: studyOnline@@media-api:169.254.87.149:63050 from beat map.
+2023-10-25 21:09:57,229 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: studyOnline@@media-api:169.254.87.149:63050 from beat map.
+2023-10-25 21:09:57,229 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service studyOnline@@media-api with instance: Instance{instanceId='null', ip='169.254.87.149', port=63050, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-10-25 21:09:57,229 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service studyOnline@@media-api with instance: Instance{instanceId='null', ip='169.254.87.149', port=63050, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-10-25 21:09:57,230 DEBUG [SpringContextShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://localhost:8848/nacos/v1/ns/instance?app=unknown&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149&ephemeral=true&serviceName=studyOnline%40%40media-api, body: {}
+2023-10-25 21:09:57,230 DEBUG [SpringContextShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://localhost:8848/nacos/v1/ns/instance?app=unknown&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149&ephemeral=true&serviceName=studyOnline%40%40media-api, body: {}
+2023-10-25 21:09:57,234 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-10-25 21:09:57,234 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-10-25 21:09:57,234 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-10-25 21:09:57,234 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-10-25 21:09:58,235 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"dom\":\"studyOnline@@media-api\",\"name\":\"studyOnline@@media-api\",\"cacheMillis\":10000,\"lastRefTime\":1698239398234,\"checksum\":\"5c4cf8f76719da23a1e5ad7446a8813a\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"hosts\":[],\"metadata\":{}}","lastRefTime":101508536240100} from /169.254.87.149
+2023-10-25 21:09:58,235 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"dom\":\"studyOnline@@media-api\",\"name\":\"studyOnline@@media-api\",\"cacheMillis\":10000,\"lastRefTime\":1698239398234,\"checksum\":\"5c4cf8f76719da23a1e5ad7446a8813a\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"hosts\":[],\"metadata\":{}}","lastRefTime":101508536240100} from /169.254.87.149
+2023-10-25 21:09:58,236 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:238] - removed ips(1) service: studyOnline@@media-api@@DEFAULT -> [{"instanceId":"169.254.87.149#63050#DEFAULT#studyOnline@@media-api","ip":"169.254.87.149","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"studyOnline@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2023-10-25 21:09:58,236 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:238] - removed ips(1) service: studyOnline@@media-api@@DEFAULT -> [{"instanceId":"169.254.87.149#63050#DEFAULT#studyOnline@@media-api","ip":"169.254.87.149","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"studyOnline@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2023-10-25 21:09:58,236 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@1521b6c4 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@76db9048
+2023-10-25 21:09:58,236 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@1521b6c4 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@76db9048
+2023-10-25 21:09:58,243 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(0) service: studyOnline@@media-api@@DEFAULT -> []
+2023-10-25 21:09:58,243 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(0) service: studyOnline@@media-api@@DEFAULT -> []

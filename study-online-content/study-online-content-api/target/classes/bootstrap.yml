@@ -1,26 +1,50 @@
-server:
-  servlet:
-    context-path: /content
-  port: 63040
+#server:
+#  servlet:
+#    context-path: /content
+#  port: 63040
 #微服务配置
 spring:
   application:
     name: content-api
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/xc_content?serverTimezone=UTC&userUnicode=true&useSSL=false&allowPublicKeyRetrieval=true
-    username: root
-    password: 123456
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/xc_content?serverTimezone=UTC&userUnicode=true&useSSL=false&allowPublicKeyRetrieval=true
+#    username: root
+#    password: 123456
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        namespace: dev
+        group: studyOnline
+      config:
+        namespace: dev
+        group: studyOnline
+        file-extension: yaml
+        refresh-enabled: true
+        extension-configs:
+          - data-id: content-service-${spring.profiles.active}.yaml
+            group: studyOnline
+            refresh: true
+        shared-configs:
+          - data-id: swagger-${spring.profiles.active}.yaml
+            group: studyOnline-common
+            refresh: true
+          - data-id: logging-${spring.profiles.active}.yaml
+            group: studyOnline-common
+            refresh: true
+  profiles:
+    active: dev
 
-# 日志文件配置路径
-logging:
-  config: classpath:log4j2-dev.xml
-
-
-# swagger 文档配置
-swagger:
-  title: "学成在线内容管理系统"
-  description: "内容系统管理系统对课程相关信息进行业务管理数据"
-  base-package: com.zy.content
-  enabled: true
-  version: 1.0.0
+## 日志文件配置路径
+#logging:
+#  config: classpath:log4j2-dev.xml
+#
+#
+## swagger 文档配置
+#swagger:
+#  title: "学成在线内容管理系统"
+#  description: "内容系统管理系统对课程相关信息进行业务管理数据"
+#  base-package: com.zy.content
+#  enabled: true
+#  version: 1.0.0

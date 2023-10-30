@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
       </profile>
-      <profile name="Annotation profile for xuecheng-plus-system" enabled="true">
+      <profile name="Annotation profile for study-online-media" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -16,11 +16,15 @@
         </processorPath>
         <module name="xuecheng-plus-system-service" />
         <module name="xuecheng-plus-system-model" />
-        <module name="study-online-content-api" />
         <module name="xuecheng-plus-system-api" />
+        <module name="study-online-content-api" />
+        <module name="study-online-media-service" />
+        <module name="study-online-gateway" />
         <module name="study-online-content-model" />
         <module name="study-online-content-service" />
+        <module name="study-online-media-model" />
         <module name="study-online-base" />
+        <module name="study-online-media-api" />
         <module name="xuecheng-plus-generator" />
       </profile>
     </annotationProcessing>

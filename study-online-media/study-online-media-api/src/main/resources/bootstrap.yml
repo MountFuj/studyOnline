@@ -1,0 +1,29 @@
+#微服务配置
+spring:
+  application:
+    name: media-api
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        namespace: dev
+        group: studyOnline
+      config:
+        namespace: dev
+        group: studyOnline
+        file-extension: yaml
+        refresh-enabled: true
+        extension-configs:
+          - data-id: media-service-${spring.profiles.active}.yaml
+            group: studyOnline
+            refresh: true
+        shared-configs:
+          - data-id: swagger-${spring.profiles.active}.yaml
+            group: studyOnline-common
+            refresh: true
+          - data-id: logging-${spring.profiles.active}.yaml
+            group: studyOnline-common
+            refresh: true
+  profiles:
+    active: dev
+

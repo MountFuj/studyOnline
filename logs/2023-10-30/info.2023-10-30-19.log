@@ -1,0 +1,1006 @@
+2023-10-30 19:53:25,320 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-10-30 19:53:25,320 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-10-30 19:53:26,596 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-10-30 19:53:26,596 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-10-30 19:53:26,602 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.media.mapper]' package. Please check your configuration.
+2023-10-30 19:53:26,602 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.media.mapper]' package. Please check your configuration.
+2023-10-30 19:53:26,727 INFO [main][GenericScope.java:295] - BeanFactory id=67f56fd0-7cba-3006-b835-197219441669
+2023-10-30 19:53:26,727 INFO [main][GenericScope.java:295] - BeanFactory id=67f56fd0-7cba-3006-b835-197219441669
+2023-10-30 19:53:27,345 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-10-30 19:53:27,345 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-10-30 19:53:27,365 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-10-30 19:53:27,365 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-10-30 19:53:27,366 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-10-30 19:53:27,366 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-10-30 19:53:27,367 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-10-30 19:53:27,367 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-10-30 19:53:27,371 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2023-10-30 19:53:27,371 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2023-10-30 19:53:27,371 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-10-30 19:53:27,371 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-10-30 19:53:27,372 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-10-30 19:53:27,372 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-10-30 19:53:27,379 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-10-30 19:53:27,379 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-10-30 19:53:27,771 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-10-30 19:53:27,771 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-10-30 19:53:27,771 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 2419 ms
+2023-10-30 19:53:27,771 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 2419 ms
+2023-10-30 19:53:28,224 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-10-30 19:53:28,224 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-10-30 19:53:28,453 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@4217bce6'
+2023-10-30 19:53:28,457 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-10-30 19:53:28,453 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@4217bce6'
+2023-10-30 19:53:28,457 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-10-30 19:53:31,018 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.insert
+2023-10-30 19:53:31,018 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.insert
+2023-10-30 19:53:31,031 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.delete
+2023-10-30 19:53:31,031 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.delete
+2023-10-30 19:53:31,037 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.deleteByMap
+2023-10-30 19:53:31,037 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.deleteByMap
+2023-10-30 19:53:31,153 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.deleteById
+2023-10-30 19:53:31,153 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.deleteById
+2023-10-30 19:53:31,160 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.deleteBatchIds
+2023-10-30 19:53:31,160 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.deleteBatchIds
+2023-10-30 19:53:31,174 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.update
+2023-10-30 19:53:31,174 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.update
+2023-10-30 19:53:31,179 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.updateById
+2023-10-30 19:53:31,179 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.updateById
+2023-10-30 19:53:31,181 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.selectById
+2023-10-30 19:53:31,181 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.selectById
+2023-10-30 19:53:31,184 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.selectBatchIds
+2023-10-30 19:53:31,184 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.selectBatchIds
+2023-10-30 19:53:31,188 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.selectByMap
+2023-10-30 19:53:31,188 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.selectByMap
+2023-10-30 19:53:31,193 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.selectOne
+2023-10-30 19:53:31,193 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.selectOne
+2023-10-30 19:53:31,198 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.selectCount
+2023-10-30 19:53:31,198 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.selectCount
+2023-10-30 19:53:31,202 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.selectMaps
+2023-10-30 19:53:31,202 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.selectMaps
+2023-10-30 19:53:31,208 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.selectMapsPage
+2023-10-30 19:53:31,208 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.selectMapsPage
+2023-10-30 19:53:31,224 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.selectObjs
+2023-10-30 19:53:31,224 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.selectObjs
+2023-10-30 19:53:31,238 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.selectList
+2023-10-30 19:53:31,238 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.selectList
+2023-10-30 19:53:31,307 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.selectPage
+2023-10-30 19:53:31,307 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaFilesMapper.selectPage
+2023-10-30 19:53:33,447 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-10-30 19:53:33,447 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-10-30 19:53:33,459 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-10-30 19:53:33,459 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-10-30 19:53:33,459 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-10-30 19:53:33,459 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-10-30 19:53:33,466 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-10-30 19:53:33,466 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-10-30 19:53:33,467 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-10-30 19:53:33,467 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-10-30 19:53:33,488 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-10-30 19:53:33,488 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-10-30 19:53:33,491 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-10-30 19:53:33,491 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-10-30 19:53:33,492 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-10-30 19:53:33,492 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-10-30 19:53:33,494 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-10-30 19:53:33,494 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-10-30 19:53:33,497 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-10-30 19:53:33,497 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-10-30 19:53:33,497 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-10-30 19:53:33,497 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-10-30 19:53:33,498 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-10-30 19:53:33,498 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-10-30 19:53:33,498 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-10-30 19:53:33,498 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-10-30 19:53:33,498 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-10-30 19:53:33,498 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-10-30 19:53:33,500 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-10-30 19:53:33,500 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-10-30 19:53:33,503 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-10-30 19:53:33,503 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-10-30 19:53:33,504 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-10-30 19:53:33,504 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-10-30 19:53:33,504 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-10-30 19:53:33,504 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-10-30 19:53:33,504 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-10-30 19:53:33,504 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-10-30 19:53:33,504 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-10-30 19:53:33,504 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-10-30 19:53:33,505 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-10-30 19:53:33,505 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-10-30 19:53:33,622 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-30 19:53:33,622 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-30 19:53:35,619 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-10-30 19:53:35,619 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-10-30 19:53:35,627 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-10-30 19:53:35,627 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-10-30 19:53:37,457 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-10-30 19:53:37,457 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-10-30 19:53:37,553 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.insert
+2023-10-30 19:53:37,553 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.insert
+2023-10-30 19:53:37,557 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.delete
+2023-10-30 19:53:37,557 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.delete
+2023-10-30 19:53:37,560 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.deleteByMap
+2023-10-30 19:53:37,560 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.deleteByMap
+2023-10-30 19:53:37,563 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.deleteById
+2023-10-30 19:53:37,563 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.deleteById
+2023-10-30 19:53:37,566 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.deleteBatchIds
+2023-10-30 19:53:37,566 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.deleteBatchIds
+2023-10-30 19:53:37,569 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.update
+2023-10-30 19:53:37,569 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.update
+2023-10-30 19:53:37,572 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.updateById
+2023-10-30 19:53:37,572 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.updateById
+2023-10-30 19:53:37,572 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.selectById
+2023-10-30 19:53:37,572 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.selectById
+2023-10-30 19:53:37,575 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.selectBatchIds
+2023-10-30 19:53:37,575 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.selectBatchIds
+2023-10-30 19:53:37,577 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.selectByMap
+2023-10-30 19:53:37,577 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.selectByMap
+2023-10-30 19:53:37,581 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.selectOne
+2023-10-30 19:53:37,581 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.selectOne
+2023-10-30 19:53:37,584 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.selectCount
+2023-10-30 19:53:37,584 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.selectCount
+2023-10-30 19:53:37,587 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.selectMaps
+2023-10-30 19:53:37,587 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.selectMaps
+2023-10-30 19:53:37,591 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.selectMapsPage
+2023-10-30 19:53:37,591 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.selectMapsPage
+2023-10-30 19:53:37,594 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.selectObjs
+2023-10-30 19:53:37,594 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.selectObjs
+2023-10-30 19:53:37,597 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.selectList
+2023-10-30 19:53:37,597 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.selectList
+2023-10-30 19:53:37,601 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.selectPage
+2023-10-30 19:53:37,601 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessHistoryMapper.selectPage
+2023-10-30 19:53:37,624 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.insert
+2023-10-30 19:53:37,624 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.insert
+2023-10-30 19:53:37,626 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.delete
+2023-10-30 19:53:37,626 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.delete
+2023-10-30 19:53:37,627 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.deleteByMap
+2023-10-30 19:53:37,627 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.deleteByMap
+2023-10-30 19:53:37,629 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.deleteById
+2023-10-30 19:53:37,629 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.deleteById
+2023-10-30 19:53:37,631 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.deleteBatchIds
+2023-10-30 19:53:37,631 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.deleteBatchIds
+2023-10-30 19:53:37,634 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.update
+2023-10-30 19:53:37,634 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.update
+2023-10-30 19:53:37,636 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.updateById
+2023-10-30 19:53:37,636 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.updateById
+2023-10-30 19:53:37,637 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.selectById
+2023-10-30 19:53:37,637 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.selectById
+2023-10-30 19:53:37,638 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.selectBatchIds
+2023-10-30 19:53:37,638 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.selectBatchIds
+2023-10-30 19:53:37,641 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.selectByMap
+2023-10-30 19:53:37,641 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.selectByMap
+2023-10-30 19:53:37,643 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.selectOne
+2023-10-30 19:53:37,643 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.selectOne
+2023-10-30 19:53:37,645 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.selectCount
+2023-10-30 19:53:37,645 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.selectCount
+2023-10-30 19:53:37,648 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.selectMaps
+2023-10-30 19:53:37,648 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.selectMaps
+2023-10-30 19:53:37,650 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.selectMapsPage
+2023-10-30 19:53:37,650 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.selectMapsPage
+2023-10-30 19:53:37,652 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.selectObjs
+2023-10-30 19:53:37,652 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.selectObjs
+2023-10-30 19:53:37,655 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.selectList
+2023-10-30 19:53:37,655 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.selectList
+2023-10-30 19:53:37,657 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.selectPage
+2023-10-30 19:53:37,657 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MediaProcessMapper.selectPage
+2023-10-30 19:53:37,683 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.insert
+2023-10-30 19:53:37,683 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.insert
+2023-10-30 19:53:37,687 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.delete
+2023-10-30 19:53:37,687 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.delete
+2023-10-30 19:53:37,690 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.deleteByMap
+2023-10-30 19:53:37,690 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.deleteByMap
+2023-10-30 19:53:37,693 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.deleteById
+2023-10-30 19:53:37,693 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.deleteById
+2023-10-30 19:53:37,696 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.deleteBatchIds
+2023-10-30 19:53:37,696 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.deleteBatchIds
+2023-10-30 19:53:37,699 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.update
+2023-10-30 19:53:37,699 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.update
+2023-10-30 19:53:37,703 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.updateById
+2023-10-30 19:53:37,703 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.updateById
+2023-10-30 19:53:37,703 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.selectById
+2023-10-30 19:53:37,703 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.selectById
+2023-10-30 19:53:37,706 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.selectBatchIds
+2023-10-30 19:53:37,706 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.selectBatchIds
+2023-10-30 19:53:37,709 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.selectByMap
+2023-10-30 19:53:37,709 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.selectByMap
+2023-10-30 19:53:37,713 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.selectOne
+2023-10-30 19:53:37,713 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.selectOne
+2023-10-30 19:53:37,716 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.selectCount
+2023-10-30 19:53:37,716 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.selectCount
+2023-10-30 19:53:37,720 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.selectMaps
+2023-10-30 19:53:37,720 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.selectMaps
+2023-10-30 19:53:37,723 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.selectMapsPage
+2023-10-30 19:53:37,723 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.selectMapsPage
+2023-10-30 19:53:37,727 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.selectObjs
+2023-10-30 19:53:37,727 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.selectObjs
+2023-10-30 19:53:37,731 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.selectList
+2023-10-30 19:53:37,731 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.selectList
+2023-10-30 19:53:37,734 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.selectPage
+2023-10-30 19:53:37,734 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageHistoryMapper.selectPage
+2023-10-30 19:53:37,760 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.insert
+2023-10-30 19:53:37,760 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.insert
+2023-10-30 19:53:37,765 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.delete
+2023-10-30 19:53:37,765 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.delete
+2023-10-30 19:53:37,769 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.deleteByMap
+2023-10-30 19:53:37,769 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.deleteByMap
+2023-10-30 19:53:37,772 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.deleteById
+2023-10-30 19:53:37,772 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.deleteById
+2023-10-30 19:53:37,777 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.deleteBatchIds
+2023-10-30 19:53:37,777 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.deleteBatchIds
+2023-10-30 19:53:37,781 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.update
+2023-10-30 19:53:37,781 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.update
+2023-10-30 19:53:37,784 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.updateById
+2023-10-30 19:53:37,784 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.updateById
+2023-10-30 19:53:37,785 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.selectById
+2023-10-30 19:53:37,785 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.selectById
+2023-10-30 19:53:37,788 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.selectBatchIds
+2023-10-30 19:53:37,788 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.selectBatchIds
+2023-10-30 19:53:37,791 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.selectByMap
+2023-10-30 19:53:37,791 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.selectByMap
+2023-10-30 19:53:37,794 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.selectOne
+2023-10-30 19:53:37,794 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.selectOne
+2023-10-30 19:53:37,799 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.selectCount
+2023-10-30 19:53:37,799 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.selectCount
+2023-10-30 19:53:37,803 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.selectMaps
+2023-10-30 19:53:37,803 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.selectMaps
+2023-10-30 19:53:37,806 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.selectMapsPage
+2023-10-30 19:53:37,806 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.selectMapsPage
+2023-10-30 19:53:37,810 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.selectObjs
+2023-10-30 19:53:37,810 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.selectObjs
+2023-10-30 19:53:37,814 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.selectList
+2023-10-30 19:53:37,814 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.selectList
+2023-10-30 19:53:37,818 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.selectPage
+2023-10-30 19:53:37,818 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.zy.media.mapper.MqMessageMapper.selectPage
+2023-10-30 19:53:37,988 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-10-30 19:53:37,988 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-10-30 19:53:37,990 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-10-30 19:53:37,990 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-10-30 19:53:37,991 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-10-30 19:53:37,991 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-10-30 19:53:38,001 DEBUG [main][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-10-30 19:53:38,001 DEBUG [main][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-10-30 19:53:38,004 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-10-30 19:53:38,004 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-10-30 19:53:38,010 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:53:38,010 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:53:38,028 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-10-30 19:53:38,028 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-10-30 19:53:38,031 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:53:38,031 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:53:38,305 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63050"]
+2023-10-30 19:53:38,305 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63050"]
+2023-10-30 19:53:38,356 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63050 (http) with context path '/media'
+2023-10-30 19:53:38,356 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63050 (http) with context path '/media'
+2023-10-30 19:53:38,365 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-10-30 19:53:38,365 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-10-30 19:53:38,367 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service studyOnline@@media-api with instance: Instance{instanceId='null', ip='169.254.87.149', port=63050, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-10-30 19:53:38,367 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service studyOnline@@media-api with instance: Instance{instanceId='null', ip='169.254.87.149', port=63050, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-10-30 19:53:38,369 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/ns/instance?app=unknown&groupName=studyOnline&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=dev&port=63050&enable=true&healthy=true&clusterName=DEFAULT&ip=169.254.87.149&weight=1.0&ephemeral=true&serviceName=studyOnline%40%40media-api, body: {}
+2023-10-30 19:53:38,369 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/ns/instance?app=unknown&groupName=studyOnline&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=dev&port=63050&enable=true&healthy=true&clusterName=DEFAULT&ip=169.254.87.149&weight=1.0&ephemeral=true&serviceName=studyOnline%40%40media-api, body: {}
+2023-10-30 19:53:38,947 INFO [main][NacosServiceRegistry.java:75] - nacos registry, studyOnline media-api 169.254.87.149:63050 register finished
+2023-10-30 19:53:38,947 INFO [main][NacosServiceRegistry.java:75] - nacos registry, studyOnline media-api 169.254.87.149:63050 register finished
+2023-10-30 19:53:39,310 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:53:39,310 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:53:39,360 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: studyOnline@@media-api@@DEFAULT -> [{"instanceId":"169.254.87.149#63050#DEFAULT#studyOnline@@media-api","ip":"169.254.87.149","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"studyOnline@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-10-30 19:53:39,360 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: studyOnline@@media-api@@DEFAULT -> [{"instanceId":"169.254.87.149#63050#DEFAULT#studyOnline@@media-api","ip":"169.254.87.149","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"studyOnline@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-10-30 19:53:39,361 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@2333d1c1 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@6c56fff
+2023-10-30 19:53:39,361 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@2333d1c1 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@6c56fff
+2023-10-30 19:53:39,374 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: studyOnline@@media-api@@DEFAULT -> [{"instanceId":"169.254.87.149#63050#DEFAULT#studyOnline@@media-api","ip":"169.254.87.149","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"studyOnline@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-10-30 19:53:39,374 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: studyOnline@@media-api@@DEFAULT -> [{"instanceId":"169.254.87.149#63050#DEFAULT#studyOnline@@media-api","ip":"169.254.87.149","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"studyOnline@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-10-30 19:53:40,013 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"hosts\":[{\"ip\":\"169.254.87.149\",\"port\":63050,\"valid\":true,\"healthy\":true,\"marked\":false,\"instanceId\":\"169.254.87.149#63050#DEFAULT#studyOnline@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"enabled\":true,\"weight\":1.0,\"clusterName\":\"DEFAULT\",\"serviceName\":\"studyOnline@@media-api\",\"ephemeral\":true}],\"dom\":\"studyOnline@@media-api\",\"name\":\"studyOnline@@media-api\",\"cacheMillis\":10000,\"lastRefTime\":1698666819983,\"checksum\":\"33ad73244199a06fde3e95d19ec86144\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"metadata\":{}}","lastRefTime":33274220521600} from /192.168.5.199
+2023-10-30 19:53:40,013 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"hosts\":[{\"ip\":\"169.254.87.149\",\"port\":63050,\"valid\":true,\"healthy\":true,\"marked\":false,\"instanceId\":\"169.254.87.149#63050#DEFAULT#studyOnline@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"enabled\":true,\"weight\":1.0,\"clusterName\":\"DEFAULT\",\"serviceName\":\"studyOnline@@media-api\",\"ephemeral\":true}],\"dom\":\"studyOnline@@media-api\",\"name\":\"studyOnline@@media-api\",\"cacheMillis\":10000,\"lastRefTime\":1698666819983,\"checksum\":\"33ad73244199a06fde3e95d19ec86144\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"metadata\":{}}","lastRefTime":33274220521600} from /192.168.5.199
+2023-10-30 19:53:40,750 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-10-30 19:53:40,750 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-10-30 19:53:40,751 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-10-30 19:53:40,751 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-10-30 19:53:40,785 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-10-30 19:53:40,785 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-10-30 19:53:40,849 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-10-30 19:53:40,849 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-10-30 19:53:41,173 INFO [main][StartupInfoLogger.java:61] - Started MediaApplication in 21.322 seconds (JVM running for 24.516)
+2023-10-30 19:53:41,173 INFO [main][StartupInfoLogger.java:61] - Started MediaApplication in 21.322 seconds (JVM running for 24.516)
+2023-10-30 19:53:41,179 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] media-api.yaml+studyOnline+dev
+2023-10-30 19:53:41,179 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] media-api.yaml+studyOnline+dev
+2023-10-30 19:53:41,180 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api.yaml, group=studyOnline, cnt=1
+2023-10-30 19:53:41,180 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api.yaml, group=studyOnline, cnt=1
+2023-10-30 19:53:41,180 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] media-api+studyOnline+dev
+2023-10-30 19:53:41,180 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] media-api+studyOnline+dev
+2023-10-30 19:53:41,180 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api, group=studyOnline, cnt=1
+2023-10-30 19:53:41,180 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api, group=studyOnline, cnt=1
+2023-10-30 19:53:41,182 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] swagger-dev.yaml+studyOnline-common+dev
+2023-10-30 19:53:41,182 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] swagger-dev.yaml+studyOnline-common+dev
+2023-10-30 19:53:41,182 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=swagger-dev.yaml, group=studyOnline-common, cnt=1
+2023-10-30 19:53:41,182 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=swagger-dev.yaml, group=studyOnline-common, cnt=1
+2023-10-30 19:53:41,189 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-30 19:53:41,189 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-30 19:53:41,189 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] media-api-dev.yaml+studyOnline+dev
+2023-10-30 19:53:41,189 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] media-api-dev.yaml+studyOnline+dev
+2023-10-30 19:53:41,189 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@233c99f]
+2023-10-30 19:53:41,189 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@233c99f]
+2023-10-30 19:53:41,190 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api-dev.yaml, group=studyOnline, cnt=1
+2023-10-30 19:53:41,190 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api-dev.yaml, group=studyOnline, cnt=1
+2023-10-30 19:53:41,197 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] logging-dev.yaml+studyOnline-common+dev
+2023-10-30 19:53:41,197 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] logging-dev.yaml+studyOnline-common+dev
+2023-10-30 19:53:41,198 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=studyOnline-common, cnt=1
+2023-10-30 19:53:41,198 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=studyOnline-common, cnt=1
+2023-10-30 19:53:41,199 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-api-dev.yamlstudyOnlinee45cba668b6fb8050da012b2199404d8devlogging-dev.yamlstudyOnline-common93db0af0040302ef8aeb4b6f50616937devswagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-30 19:53:41,199 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-api-dev.yamlstudyOnlinee45cba668b6fb8050da012b2199404d8devlogging-dev.yamlstudyOnline-common93db0af0040302ef8aeb4b6f50616937devswagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-30 19:53:41,199 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@233c99f]
+2023-10-30 19:53:41,199 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@233c99f]
+2023-10-30 19:53:41,204 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-api-dev.yamlstudyOnlinee45cba668b6fb8050da012b2199404d8devlogging-dev.yamlstudyOnline-common93db0af0040302ef8aeb4b6f50616937devswagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-30 19:53:41,204 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-api-dev.yamlstudyOnlinee45cba668b6fb8050da012b2199404d8devlogging-dev.yamlstudyOnline-common93db0af0040302ef8aeb4b6f50616937devswagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-30 19:53:41,204 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@233c99f]
+2023-10-30 19:53:41,204 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@233c99f]
+2023-10-30 19:53:41,206 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] media-service-dev.yaml+studyOnline+dev
+2023-10-30 19:53:41,206 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-dev] [subscribe] media-service-dev.yaml+studyOnline+dev
+2023-10-30 19:53:41,207 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=media-service-dev.yaml, group=studyOnline, cnt=1
+2023-10-30 19:53:41,207 INFO [main][CacheData.java:92] - [fixed-localhost_8848-dev] [add-listener] ok, tenant=dev, dataId=media-service-dev.yaml, group=studyOnline, cnt=1
+2023-10-30 19:53:43,022 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:53:43,022 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:53:43,381 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:53:43,381 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:53:43,383 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {beat={"port":63050,"ip":"169.254.87.149","weight":1.0,"serviceName":"studyOnline@@media-api","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2023-10-30 19:53:43,383 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {beat={"port":63050,"ip":"169.254.87.149","weight":1.0,"serviceName":"studyOnline@@media-api","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2023-10-30 19:53:48,032 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:53:48,032 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:53:48,419 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:53:48,419 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:53:48,419 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:53:48,419 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:53:49,387 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:53:49,387 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:53:53,045 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:53:53,045 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:53:53,432 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:53:53,432 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:53:53,432 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:53:53,432 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:53:58,055 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:53:58,055 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:53:58,446 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:53:58,446 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:53:58,447 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:53:58,447 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:53:59,410 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:53:59,410 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:54:03,056 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:03,056 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:03,462 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:03,462 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:03,463 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:03,463 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:08,016 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-10-30 19:54:08,016 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-10-30 19:54:08,064 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:08,064 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:08,471 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:08,471 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:08,472 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:08,472 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:09,433 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:54:09,433 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:54:10,918 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-api-dev.yamlstudyOnlinee45cba668b6fb8050da012b2199404d8devlogging-dev.yamlstudyOnline-common93db0af0040302ef8aeb4b6f50616937devswagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-service-dev.yamlstudyOnline591958c47697c27aa247c8922c81d684devmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-30 19:54:10,918 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-api-dev.yamlstudyOnlinee45cba668b6fb8050da012b2199404d8devlogging-dev.yamlstudyOnline-common93db0af0040302ef8aeb4b6f50616937devswagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-service-dev.yamlstudyOnline591958c47697c27aa247c8922c81d684devmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-30 19:54:10,919 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@233c99f]
+2023-10-30 19:54:10,919 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@233c99f]
+2023-10-30 19:54:10,926 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-api-dev.yamlstudyOnlinee45cba668b6fb8050da012b2199404d8devlogging-dev.yamlstudyOnline-common93db0af0040302ef8aeb4b6f50616937devswagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-service-dev.yamlstudyOnline591958c47697c27aa247c8922c81d684devmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-30 19:54:10,926 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-api-dev.yamlstudyOnlinee45cba668b6fb8050da012b2199404d8devlogging-dev.yamlstudyOnline-common93db0af0040302ef8aeb4b6f50616937devswagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-service-dev.yamlstudyOnline591958c47697c27aa247c8922c81d684devmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-30 19:54:10,926 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@233c99f]
+2023-10-30 19:54:10,926 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@233c99f]
+2023-10-30 19:54:13,069 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:13,069 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:13,490 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:13,491 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:13,490 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:13,491 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:18,111 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:18,111 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:18,508 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:18,508 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:18,508 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:18,508 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:19,453 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:54:19,453 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:54:23,123 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:23,123 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:23,527 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:23,527 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:23,527 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:23,527 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:28,137 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:28,137 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:28,594 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:28,594 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:28,596 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:28,596 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:29,491 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:54:29,491 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:54:33,149 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:33,149 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:33,632 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:33,632 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:33,633 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:33,633 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:38,026 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-10-30 19:54:38,026 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-10-30 19:54:38,166 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:38,166 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:38,644 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:38,644 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:38,644 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:38,644 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:39,514 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:54:39,514 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:54:40,638 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-api-dev.yamlstudyOnlinee45cba668b6fb8050da012b2199404d8devlogging-dev.yamlstudyOnline-common93db0af0040302ef8aeb4b6f50616937devswagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-service-dev.yamlstudyOnline591958c47697c27aa247c8922c81d684devmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-30 19:54:40,638 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-api-dev.yamlstudyOnlinee45cba668b6fb8050da012b2199404d8devlogging-dev.yamlstudyOnline-common93db0af0040302ef8aeb4b6f50616937devswagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-service-dev.yamlstudyOnline591958c47697c27aa247c8922c81d684devmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-30 19:54:40,638 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@233c99f]
+2023-10-30 19:54:40,638 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@233c99f]
+2023-10-30 19:54:43,171 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:43,171 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:43,654 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:43,654 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:43,654 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:43,654 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:48,180 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:48,180 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:48,663 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:48,663 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:48,663 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:48,663 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:49,520 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:54:49,520 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:54:51,981 INFO [http-nio-63050-exec-2][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-30 19:54:51,981 INFO [http-nio-63050-exec-2][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-30 19:54:51,981 INFO [http-nio-63050-exec-2][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-10-30 19:54:51,981 INFO [http-nio-63050-exec-2][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-10-30 19:54:52,001 INFO [http-nio-63050-exec-2][FrameworkServlet.java:547] - Completed initialization in 20 ms
+2023-10-30 19:54:52,001 INFO [http-nio-63050-exec-2][FrameworkServlet.java:547] - Completed initialization in 20 ms
+2023-10-30 19:54:52,113 ERROR [http-nio-63050-exec-2][GlobalExceptionHandler.java:36] - 【系统异常】Invalid bound statement (not found): com.zy.media.service.MediaFileService.uploadFile
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.zy.media.service.MediaFileService.uploadFile
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.<init>(MybatisMapperMethod.java:51)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.lambda$cachedInvoker$0(MybatisMapperProxy.java:111)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at com.baomidou.mybatisplus.core.toolkit.CollectionUtils.computeIfAbsent(CollectionUtils.java:117)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.cachedInvoker(MybatisMapperProxy.java:98)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy91.uploadFile(Unknown Source)
+	at com.zy.media.api.MediaFilesController.upload(MediaFilesController.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2023-10-30 19:54:52,113 ERROR [http-nio-63050-exec-2][GlobalExceptionHandler.java:36] - 【系统异常】Invalid bound statement (not found): com.zy.media.service.MediaFileService.uploadFile
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.zy.media.service.MediaFileService.uploadFile
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.<init>(MybatisMapperMethod.java:51)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.lambda$cachedInvoker$0(MybatisMapperProxy.java:111)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at com.baomidou.mybatisplus.core.toolkit.CollectionUtils.computeIfAbsent(CollectionUtils.java:117)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.cachedInvoker(MybatisMapperProxy.java:98)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy91.uploadFile(Unknown Source)
+	at com.zy.media.api.MediaFilesController.upload(MediaFilesController.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2023-10-30 19:54:53,187 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:53,187 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:53,683 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:53,683 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:53,683 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:53,683 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:58,194 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:58,194 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:54:58,692 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:58,692 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:54:58,692 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:58,692 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:54:59,537 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:54:59,537 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:55:03,206 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:55:03,206 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:55:03,711 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:55:03,711 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:55:03,711 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:55:03,711 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:55:08,026 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-10-30 19:55:08,026 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-10-30 19:55:08,215 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:55:08,215 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:55:08,717 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:55:08,717 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:55:08,717 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:55:08,717 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:55:09,545 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:55:09,545 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:55:10,144 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-api-dev.yamlstudyOnlinee45cba668b6fb8050da012b2199404d8devlogging-dev.yamlstudyOnline-common93db0af0040302ef8aeb4b6f50616937devswagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-service-dev.yamlstudyOnline591958c47697c27aa247c8922c81d684devmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-30 19:55:10,144 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-api-dev.yamlstudyOnlinee45cba668b6fb8050da012b2199404d8devlogging-dev.yamlstudyOnline-common93db0af0040302ef8aeb4b6f50616937devswagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-service-dev.yamlstudyOnline591958c47697c27aa247c8922c81d684devmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-30 19:55:10,144 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@233c99f]
+2023-10-30 19:55:10,144 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@233c99f]
+2023-10-30 19:55:13,225 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:55:13,225 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:55:13,730 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:55:13,730 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:55:13,730 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:55:13,730 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:55:18,233 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:55:18,233 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:55:18,750 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:55:18,750 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:55:18,750 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:55:18,750 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:55:19,559 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:55:19,559 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:55:23,245 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:55:23,245 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:55:23,583 ERROR [http-nio-63050-exec-1][GlobalExceptionHandler.java:36] - 【系统异常】Invalid bound statement (not found): com.zy.media.service.MediaFileService.uploadFile
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.zy.media.service.MediaFileService.uploadFile
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.<init>(MybatisMapperMethod.java:51)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.lambda$cachedInvoker$0(MybatisMapperProxy.java:111)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at com.baomidou.mybatisplus.core.toolkit.CollectionUtils.computeIfAbsent(CollectionUtils.java:117)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.cachedInvoker(MybatisMapperProxy.java:98)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy91.uploadFile(Unknown Source)
+	at com.zy.media.api.MediaFilesController.upload(MediaFilesController.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2023-10-30 19:55:23,583 ERROR [http-nio-63050-exec-1][GlobalExceptionHandler.java:36] - 【系统异常】Invalid bound statement (not found): com.zy.media.service.MediaFileService.uploadFile
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.zy.media.service.MediaFileService.uploadFile
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.<init>(MybatisMapperMethod.java:51)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.lambda$cachedInvoker$0(MybatisMapperProxy.java:111)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at com.baomidou.mybatisplus.core.toolkit.CollectionUtils.computeIfAbsent(CollectionUtils.java:117)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.cachedInvoker(MybatisMapperProxy.java:98)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy91.uploadFile(Unknown Source)
+	at com.zy.media.api.MediaFilesController.upload(MediaFilesController.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2023-10-30 19:55:23,767 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:55:23,767 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:55:23,768 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:55:23,768 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:55:28,259 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:55:28,259 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:55:28,779 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:55:28,779 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:55:28,780 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:55:28,780 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:55:29,566 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:55:29,566 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:55:33,261 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:55:33,261 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:55:33,793 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:55:33,793 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:55:33,793 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:55:33,793 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:55:38,031 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-10-30 19:55:38,031 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-10-30 19:55:38,270 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:55:38,270 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:55:38,809 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:55:38,809 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:55:38,809 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:55:38,809 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:55:39,586 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:55:39,586 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:55:39,652 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-api-dev.yamlstudyOnlinee45cba668b6fb8050da012b2199404d8devlogging-dev.yamlstudyOnline-common93db0af0040302ef8aeb4b6f50616937devswagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-service-dev.yamlstudyOnline591958c47697c27aa247c8922c81d684devmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-30 19:55:39,652 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-api-dev.yamlstudyOnlinee45cba668b6fb8050da012b2199404d8devlogging-dev.yamlstudyOnline-common93db0af0040302ef8aeb4b6f50616937devswagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-service-dev.yamlstudyOnline591958c47697c27aa247c8922c81d684devmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-30 19:55:39,652 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@233c99f]
+2023-10-30 19:55:39,652 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@233c99f]
+2023-10-30 19:55:45,457 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:55:45,457 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:55:45,457 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:55:45,457 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:55:49,136 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:55:49,136 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:55:50,659 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:55:50,659 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:56:00,500 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:56:00,500 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:56:06,579 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:56:06,579 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:56:09,136 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-10-30 19:56:09,136 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-10-30 19:56:09,137 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:56:09,137 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='169.254.87.149', weight=1.0, serviceName='studyOnline@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-10-30 19:56:16,420 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:56:16,420 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:56:16,421 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:56:23,123 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"hosts\":[{\"ip\":\"169.254.87.149\",\"port\":63050,\"valid\":true,\"healthy\":true,\"marked\":false,\"instanceId\":\"169.254.87.149#63050#DEFAULT#studyOnline@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"enabled\":true,\"weight\":1.0,\"clusterName\":\"DEFAULT\",\"serviceName\":\"studyOnline@@media-api\",\"ephemeral\":true}],\"dom\":\"studyOnline@@media-api\",\"name\":\"studyOnline@@media-api\",\"cacheMillis\":10000,\"lastRefTime\":1698666969778,\"checksum\":\"33ad73244199a06fde3e95d19ec86144\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"metadata\":{}}","lastRefTime":33424015064200} from /192.168.5.199
+2023-10-30 19:56:23,123 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:56:23,124 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-api-dev.yamlstudyOnlinee45cba668b6fb8050da012b2199404d8devlogging-dev.yamlstudyOnline-common93db0af0040302ef8aeb4b6f50616937devswagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-service-dev.yamlstudyOnline591958c47697c27aa247c8922c81d684devmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-30 19:56:23,124 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:56:23,125 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@233c99f]
+2023-10-30 19:56:16,421 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://localhost:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=studyOnline%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149, body: {}
+2023-10-30 19:56:23,123 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"hosts\":[{\"ip\":\"169.254.87.149\",\"port\":63050,\"valid\":true,\"healthy\":true,\"marked\":false,\"instanceId\":\"169.254.87.149#63050#DEFAULT#studyOnline@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"enabled\":true,\"weight\":1.0,\"clusterName\":\"DEFAULT\",\"serviceName\":\"studyOnline@@media-api\",\"ephemeral\":true}],\"dom\":\"studyOnline@@media-api\",\"name\":\"studyOnline@@media-api\",\"cacheMillis\":10000,\"lastRefTime\":1698666969778,\"checksum\":\"33ad73244199a06fde3e95d19ec86144\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"metadata\":{}}","lastRefTime":33424015064200} from /192.168.5.199
+2023-10-30 19:56:23,123 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:56:23,124 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.5.199&serviceName=studyOnline%40%40media-api&udpPort=60835&clusters=DEFAULT, body: {}
+2023-10-30 19:56:23,124 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-api-dev.yamlstudyOnlinee45cba668b6fb8050da012b2199404d8devlogging-dev.yamlstudyOnline-common93db0af0040302ef8aeb4b6f50616937devswagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-service-dev.yamlstudyOnline591958c47697c27aa247c8922c81d684devmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-30 19:56:23,125 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@233c99f]
+2023-10-30 19:57:47,963 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:57:47,963 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:57:47,963 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-10-30 19:57:47,963 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-10-30 19:57:47,969 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-api-dev.yamlstudyOnlinee45cba668b6fb8050da012b2199404d8devlogging-dev.yamlstudyOnline-common93db0af0040302ef8aeb4b6f50616937devswagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-service-dev.yamlstudyOnline591958c47697c27aa247c8922c81d684devmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-30 19:57:47,969 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@233c99f]
+2023-10-30 19:57:47,970 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"hosts\":[{\"ip\":\"169.254.87.149\",\"port\":63050,\"valid\":true,\"healthy\":true,\"marked\":false,\"instanceId\":\"169.254.87.149#63050#DEFAULT#studyOnline@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"enabled\":true,\"weight\":1.0,\"clusterName\":\"DEFAULT\",\"serviceName\":\"studyOnline@@media-api\",\"ephemeral\":true}],\"dom\":\"studyOnline@@media-api\",\"name\":\"studyOnline@@media-api\",\"cacheMillis\":10000,\"lastRefTime\":1698666969778,\"checksum\":\"33ad73244199a06fde3e95d19ec86144\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"metadata\":{}}","lastRefTime":33424015064200} from /192.168.5.199
+2023-10-30 19:57:47,972 WARN [com.alibaba.nacos.naming.push.receiver][HostReactor.java:181] - out of date data received, old-t: 1698666983193, new-t: 1698666969778
+2023-10-30 19:57:47,963 ERROR [http-nio-63050-exec-3][GlobalExceptionHandler.java:36] - 【系统异常】Invalid bound statement (not found): com.zy.media.service.MediaFileService.uploadFile
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.zy.media.service.MediaFileService.uploadFile
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.<init>(MybatisMapperMethod.java:51)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.lambda$cachedInvoker$0(MybatisMapperProxy.java:111)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at com.baomidou.mybatisplus.core.toolkit.CollectionUtils.computeIfAbsent(CollectionUtils.java:117)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.cachedInvoker(MybatisMapperProxy.java:98)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy91.uploadFile(Unknown Source)
+	at com.zy.media.api.MediaFilesController.upload(MediaFilesController.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2023-10-30 19:57:47,963 ERROR [http-nio-63050-exec-3][GlobalExceptionHandler.java:36] - 【系统异常】Invalid bound statement (not found): com.zy.media.service.MediaFileService.uploadFile
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.zy.media.service.MediaFileService.uploadFile
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.<init>(MybatisMapperMethod.java:51)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.lambda$cachedInvoker$0(MybatisMapperProxy.java:111)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at com.baomidou.mybatisplus.core.toolkit.CollectionUtils.computeIfAbsent(CollectionUtils.java:117)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.cachedInvoker(MybatisMapperProxy.java:98)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy91.uploadFile(Unknown Source)
+	at com.zy.media.api.MediaFilesController.upload(MediaFilesController.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2023-10-30 19:57:47,969 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-api-dev.yamlstudyOnlinee45cba668b6fb8050da012b2199404d8devlogging-dev.yamlstudyOnline-common93db0af0040302ef8aeb4b6f50616937devswagger-dev.yamlstudyOnline-common3df4fc8dd585db91b28168cb384207f3devmedia-apistudyOnlinedevmedia-service-dev.yamlstudyOnline591958c47697c27aa247c8922c81d684devmedia-api.yamlstudyOnlinedev, tenant=dev}
+2023-10-30 19:57:47,969 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@233c99f]
+2023-10-30 19:57:47,970 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"hosts\":[{\"ip\":\"169.254.87.149\",\"port\":63050,\"valid\":true,\"healthy\":true,\"marked\":false,\"instanceId\":\"169.254.87.149#63050#DEFAULT#studyOnline@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"enabled\":true,\"weight\":1.0,\"clusterName\":\"DEFAULT\",\"serviceName\":\"studyOnline@@media-api\",\"ephemeral\":true}],\"dom\":\"studyOnline@@media-api\",\"name\":\"studyOnline@@media-api\",\"cacheMillis\":10000,\"lastRefTime\":1698666969778,\"checksum\":\"33ad73244199a06fde3e95d19ec86144\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"metadata\":{}}","lastRefTime":33424015064200} from /192.168.5.199
+2023-10-30 19:57:47,972 WARN [com.alibaba.nacos.naming.push.receiver][HostReactor.java:181] - out of date data received, old-t: 1698666983193, new-t: 1698666969778
+2023-10-30 19:57:47,978 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"hosts\":[{\"ip\":\"169.254.87.149\",\"port\":63050,\"valid\":true,\"healthy\":true,\"marked\":false,\"instanceId\":\"169.254.87.149#63050#DEFAULT#studyOnline@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"enabled\":true,\"weight\":1.0,\"clusterName\":\"DEFAULT\",\"serviceName\":\"studyOnline@@media-api\",\"ephemeral\":true}],\"dom\":\"studyOnline@@media-api\",\"name\":\"studyOnline@@media-api\",\"cacheMillis\":10000,\"lastRefTime\":1698666984130,\"checksum\":\"857fd9cd7bb0ac5e266461e6cc7ccbb2\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"metadata\":{}}","lastRefTime":33438367219900} from /192.168.5.199
+2023-10-30 19:57:47,980 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"hosts\":[{\"ip\":\"169.254.87.149\",\"port\":63050,\"valid\":true,\"healthy\":true,\"marked\":false,\"instanceId\":\"169.254.87.149#63050#DEFAULT#studyOnline@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"enabled\":true,\"weight\":1.0,\"clusterName\":\"DEFAULT\",\"serviceName\":\"studyOnline@@media-api\",\"ephemeral\":true}],\"dom\":\"studyOnline@@media-api\",\"name\":\"studyOnline@@media-api\",\"cacheMillis\":10000,\"lastRefTime\":1698666984130,\"checksum\":\"857fd9cd7bb0ac5e266461e6cc7ccbb2\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"metadata\":{}}","lastRefTime":33438367219900} from /192.168.5.199
+2023-10-30 19:57:47,978 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"hosts\":[{\"ip\":\"169.254.87.149\",\"port\":63050,\"valid\":true,\"healthy\":true,\"marked\":false,\"instanceId\":\"169.254.87.149#63050#DEFAULT#studyOnline@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"enabled\":true,\"weight\":1.0,\"clusterName\":\"DEFAULT\",\"serviceName\":\"studyOnline@@media-api\",\"ephemeral\":true}],\"dom\":\"studyOnline@@media-api\",\"name\":\"studyOnline@@media-api\",\"cacheMillis\":10000,\"lastRefTime\":1698666984130,\"checksum\":\"857fd9cd7bb0ac5e266461e6cc7ccbb2\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"metadata\":{}}","lastRefTime":33438367219900} from /192.168.5.199
+2023-10-30 19:57:47,980 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"hosts\":[{\"ip\":\"169.254.87.149\",\"port\":63050,\"valid\":true,\"healthy\":true,\"marked\":false,\"instanceId\":\"169.254.87.149#63050#DEFAULT#studyOnline@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"enabled\":true,\"weight\":1.0,\"clusterName\":\"DEFAULT\",\"serviceName\":\"studyOnline@@media-api\",\"ephemeral\":true}],\"dom\":\"studyOnline@@media-api\",\"name\":\"studyOnline@@media-api\",\"cacheMillis\":10000,\"lastRefTime\":1698666984130,\"checksum\":\"857fd9cd7bb0ac5e266461e6cc7ccbb2\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"metadata\":{}}","lastRefTime":33438367219900} from /192.168.5.199
+2023-10-30 19:57:48,038 WARN [Thread-9][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-10-30 19:57:48,039 WARN [Thread-45][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-10-30 19:57:48,039 WARN [Thread-45][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-10-30 19:57:48,038 WARN [Thread-9][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-10-30 19:57:48,039 WARN [Thread-45][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-10-30 19:57:48,039 WARN [Thread-45][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-10-30 19:57:48,040 WARN [Thread-9][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-10-30 19:57:48,040 WARN [Thread-9][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-10-30 19:57:48,662 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-10-30 19:57:48,662 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-10-30 19:57:48,668 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-10-30 19:57:48,668 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-10-30 19:57:48,668 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: studyOnline@@media-api:169.254.87.149:63050 from beat map.
+2023-10-30 19:57:48,668 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: studyOnline@@media-api:169.254.87.149:63050 from beat map.
+2023-10-30 19:57:48,669 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service studyOnline@@media-api with instance: Instance{instanceId='null', ip='169.254.87.149', port=63050, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-10-30 19:57:48,669 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service studyOnline@@media-api with instance: Instance{instanceId='null', ip='169.254.87.149', port=63050, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-10-30 19:57:48,669 DEBUG [SpringContextShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://localhost:8848/nacos/v1/ns/instance?app=unknown&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149&ephemeral=true&serviceName=studyOnline%40%40media-api, body: {}
+2023-10-30 19:57:48,669 DEBUG [SpringContextShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://localhost:8848/nacos/v1/ns/instance?app=unknown&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=169.254.87.149&ephemeral=true&serviceName=studyOnline%40%40media-api, body: {}
+2023-10-30 19:57:48,677 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-10-30 19:57:48,677 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-10-30 19:57:48,678 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-10-30 19:57:48,678 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-10-30 19:57:51,756 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-10-30 19:57:51,756 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-10-30 19:57:51,756 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-10-30 19:57:51,756 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-10-30 19:57:52,970 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:57:52,970 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-10-30 19:57:54,770 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-10-30 19:57:54,770 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-10-30 19:57:57,803 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-10-30 19:57:57,803 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-10-30 19:57:57,803 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-10-30 19:57:57,803 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-10-30 19:57:57,804 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-10-30 19:57:57,804 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-10-30 19:57:57,804 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-10-30 19:57:57,804 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-10-30 19:57:57,804 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-10-30 19:57:57,804 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-10-30 19:57:57,805 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-10-30 19:57:57,805 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-10-30 19:57:57,805 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-10-30 19:57:57,805 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-10-30 19:57:57,805 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-10-30 19:57:57,805 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-10-30 19:57:57,805 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-10-30 19:57:57,805 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-10-30 19:57:57,805 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-10-30 19:57:57,805 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-10-30 19:57:57,806 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2023-10-30 19:57:57,806 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2023-10-30 19:57:57,807 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-30 19:57:57,807 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'

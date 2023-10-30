@@ -1,0 +1,234 @@
+2023-10-27 21:55:04,543 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-10-27 21:55:04,543 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-10-27 21:55:05,498 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-10-27 21:55:05,498 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-10-27 21:55:05,501 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.media.mapper]' package. Please check your configuration.
+2023-10-27 21:55:05,501 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.media.mapper]' package. Please check your configuration.
+2023-10-27 21:55:05,602 INFO [main][GenericScope.java:295] - BeanFactory id=5ed861cc-8fec-30d4-b858-4fc88c9d46b1
+2023-10-27 21:55:05,602 INFO [main][GenericScope.java:295] - BeanFactory id=5ed861cc-8fec-30d4-b858-4fc88c9d46b1
+2023-10-27 21:55:06,066 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-10-27 21:55:06,066 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-10-27 21:55:06,079 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-10-27 21:55:06,079 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-10-27 21:55:06,080 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-10-27 21:55:06,080 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-10-27 21:55:06,080 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-10-27 21:55:06,080 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-10-27 21:55:06,082 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2023-10-27 21:55:06,082 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2023-10-27 21:55:06,082 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-10-27 21:55:06,082 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-10-27 21:55:06,082 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-10-27 21:55:06,082 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-10-27 21:55:06,087 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-10-27 21:55:06,087 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-10-27 21:55:06,351 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-10-27 21:55:06,351 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-10-27 21:55:06,352 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1782 ms
+2023-10-27 21:55:06,352 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1782 ms
+2023-10-27 21:55:06,435 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFileServiceImpl': Unsatisfied dependency expressed through field 'mediaFilesMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.zy.media.mapper.MediaFilesMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-10-27 21:55:06,435 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFileServiceImpl': Unsatisfied dependency expressed through field 'mediaFilesMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.zy.media.mapper.MediaFilesMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-10-27 21:55:06,437 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-10-27 21:55:06,437 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-10-27 21:55:06,451 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-10-27 21:55:06,451 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-10-27 21:55:06,680 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mediaFilesMapper in com.zy.media.service.impl.MediaFileServiceImpl required a bean of type 'com.zy.media.mapper.MediaFilesMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zy.media.mapper.MediaFilesMapper' in your configuration.
+
+2023-10-27 21:55:06,683 WARN [Thread-7][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-10-27 21:55:06,680 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mediaFilesMapper in com.zy.media.service.impl.MediaFileServiceImpl required a bean of type 'com.zy.media.mapper.MediaFilesMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zy.media.mapper.MediaFilesMapper' in your configuration.
+
+2023-10-27 21:55:06,683 WARN [Thread-7][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-10-27 21:55:06,684 WARN [Thread-7][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-10-27 21:55:06,684 WARN [Thread-7][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-10-27 21:57:00,530 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-10-27 21:57:00,530 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-10-27 21:57:01,239 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-10-27 21:57:01,239 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-10-27 21:57:01,241 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.media.mapper]' package. Please check your configuration.
+2023-10-27 21:57:01,241 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.media.mapper]' package. Please check your configuration.
+2023-10-27 21:57:01,327 INFO [main][GenericScope.java:295] - BeanFactory id=5ed861cc-8fec-30d4-b858-4fc88c9d46b1
+2023-10-27 21:57:01,327 INFO [main][GenericScope.java:295] - BeanFactory id=5ed861cc-8fec-30d4-b858-4fc88c9d46b1
+2023-10-27 21:57:01,784 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-10-27 21:57:01,784 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-10-27 21:57:01,799 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-10-27 21:57:01,799 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-10-27 21:57:01,799 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-10-27 21:57:01,799 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-10-27 21:57:01,800 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-10-27 21:57:01,800 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-10-27 21:57:01,802 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2023-10-27 21:57:01,802 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2023-10-27 21:57:01,802 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-10-27 21:57:01,802 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-10-27 21:57:01,803 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-10-27 21:57:01,803 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-10-27 21:57:01,806 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-10-27 21:57:01,806 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-10-27 21:57:01,998 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-10-27 21:57:01,998 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-10-27 21:57:01,999 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1452 ms
+2023-10-27 21:57:01,999 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1452 ms
+2023-10-27 21:57:02,083 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFileServiceImpl': Unsatisfied dependency expressed through field 'mediaFilesMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.zy.media.mapper.MediaFilesMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-10-27 21:57:02,083 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFileServiceImpl': Unsatisfied dependency expressed through field 'mediaFilesMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.zy.media.mapper.MediaFilesMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-10-27 21:57:02,084 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-10-27 21:57:02,084 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-10-27 21:57:02,099 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-10-27 21:57:02,099 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-10-27 21:57:02,319 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mediaFilesMapper in com.zy.media.service.impl.MediaFileServiceImpl required a bean of type 'com.zy.media.mapper.MediaFilesMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zy.media.mapper.MediaFilesMapper' in your configuration.
+
+2023-10-27 21:57:02,321 WARN [Thread-8][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-10-27 21:57:02,319 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mediaFilesMapper in com.zy.media.service.impl.MediaFileServiceImpl required a bean of type 'com.zy.media.mapper.MediaFilesMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zy.media.mapper.MediaFilesMapper' in your configuration.
+
+2023-10-27 21:57:02,321 WARN [Thread-8][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-10-27 21:57:02,322 WARN [Thread-8][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-10-27 21:57:02,322 WARN [Thread-8][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-10-27 21:58:49,764 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-10-27 21:58:49,764 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-10-27 21:58:50,473 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-10-27 21:58:50,473 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-10-27 21:58:50,475 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.media.mapper]' package. Please check your configuration.
+2023-10-27 21:58:50,475 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.media.mapper]' package. Please check your configuration.
+2023-10-27 21:58:50,559 INFO [main][GenericScope.java:295] - BeanFactory id=5ed861cc-8fec-30d4-b858-4fc88c9d46b1
+2023-10-27 21:58:50,559 INFO [main][GenericScope.java:295] - BeanFactory id=5ed861cc-8fec-30d4-b858-4fc88c9d46b1
+2023-10-27 21:58:50,988 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-10-27 21:58:50,988 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-10-27 21:58:51,000 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-10-27 21:58:51,000 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-10-27 21:58:51,001 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-10-27 21:58:51,001 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-10-27 21:58:51,001 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-10-27 21:58:51,001 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-10-27 21:58:51,003 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2023-10-27 21:58:51,003 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2023-10-27 21:58:51,004 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-10-27 21:58:51,004 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-10-27 21:58:51,004 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-10-27 21:58:51,004 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-10-27 21:58:51,007 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-10-27 21:58:51,007 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2023-10-27 21:58:51,201 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-10-27 21:58:51,201 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-10-27 21:58:51,201 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1419 ms
+2023-10-27 21:58:51,201 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1419 ms
+2023-10-27 21:58:51,283 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFileServiceImpl': Unsatisfied dependency expressed through field 'mediaFilesMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.zy.media.mapper.MediaFilesMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-10-27 21:58:51,283 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFileServiceImpl': Unsatisfied dependency expressed through field 'mediaFilesMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.zy.media.mapper.MediaFilesMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-10-27 21:58:51,284 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-10-27 21:58:51,284 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-10-27 21:58:51,299 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-10-27 21:58:51,299 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-10-27 21:58:51,498 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mediaFilesMapper in com.zy.media.service.impl.MediaFileServiceImpl required a bean of type 'com.zy.media.mapper.MediaFilesMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zy.media.mapper.MediaFilesMapper' in your configuration.
+
+2023-10-27 21:58:51,498 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mediaFilesMapper in com.zy.media.service.impl.MediaFileServiceImpl required a bean of type 'com.zy.media.mapper.MediaFilesMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zy.media.mapper.MediaFilesMapper' in your configuration.
+
+2023-10-27 21:58:51,500 WARN [Thread-7][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-10-27 21:58:51,500 WARN [Thread-7][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-10-27 21:58:51,501 WARN [Thread-7][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-10-27 21:58:51,501 WARN [Thread-7][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end

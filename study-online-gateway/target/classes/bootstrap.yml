@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: gateway
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        namespace: ${spring.profiles.active}
+        group: studyOnline
+      config:
+        namespace: ${spring.profiles.active}
+        group: studyOnline
+        file-extension: yaml
+        refresh-enabled: true
+        shared-configs:
+          - data-id: logging-${spring.profiles.active}.yaml
+            group: studyOnline-common
+            refresh: true
+  profiles:
+    active: dev
