@@ -1,5 +1,6 @@
 package com.zy.content.api;
 
+import com.zy.content.model.dto.BindTeachplanMediaDto;
 import com.zy.content.model.dto.SaveTeachplanDto;
 import com.zy.content.model.dto.TeachplanDto;
 import com.zy.content.service.TeachplanService;
@@ -47,4 +48,9 @@ public class TeachplanController {
     public void orderByTeachplan(@PathVariable String moveType,@PathVariable Long teachplanId){
         teachplanService.orderByTeachPlan(moveType,teachplanId);
    }
+    @ApiOperation(value = "课程计划和媒资信息绑定")
+    @PostMapping("/teachplan/association/media")
+    public void associationMedia(@RequestBody BindTeachplanMediaDto bindTeachplanMediaDto){
+        teachplanService.associationMedia(bindTeachplanMediaDto);
+    }
 }

@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.zy.base.exception.StudyOnlineException;
 import com.zy.content.mapper.TeachplanMapper;
 import com.zy.content.mapper.TeachplanMediaMapper;
+import com.zy.content.model.dto.BindTeachplanMediaDto;
 import com.zy.content.model.dto.SaveTeachplanDto;
 import com.zy.content.model.dto.TeachplanDto;
 import com.zy.content.model.po.Teachplan;
@@ -13,6 +14,7 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 /**
@@ -156,6 +158,34 @@ public class TeachplanServiceImpl implements TeachplanService {
                 exchangeOrderBy(teachplan, tmp);
             }
         }
+    }
+    /***
+     该函数是一个Java方法，用于将媒质与课程计划进行关联。
+     首先，它根据传入的BindTeachplanMediaDto对象获取课程计划的ID，并通过该ID查询课程计划对象。
+     如果课程计划不存在，则抛出异常。如果课程计划的年级不为2，则也抛出异常。
+     然后，获取课程ID，并通过LambdaQueryWrapper来删除与该课程计划相关的所有媒质。
+     接着，创建一个新的TeachplanMedia对象，设置其属性值，包括课程ID、课程计划ID、媒质文件名、媒质ID和创建日期。
+     最后，将该媒质插入到数据库中。
+    */
+    @Override
+    public void associationMedia(BindTeachplanMediaDto bindTeachplanMediaDto) {
+        Long teachplanId = bindTeachplanMediaDto.getTeachplanId();
+        Teachplan teachplan = teachplanMapper.selectById(teachplanId);
+        if(teachplan==null){
+            StudyOnlineException.cast("课程计划不存在");
+        }
+        if(teachplan.getGrade()!=2){
+            StudyOnlineException.cast("只能绑定到小节");
+        }
+        Long courseId = teachplan.getCourseId();
+        teachplanMediaMapper.delete(new LambdaQueryWrapper<TeachplanMedia>().eq(TeachplanMedia::getTeachplanId,teachplanId));
+        TeachplanMedia teachplanMedia = new TeachplanMedia();
+        teachplanMedia.setCourseId(courseId);
+        teachplanMedia.setTeachplanId(teachplanId);
+        teachplanMedia.setMediaFilename(bindTeachplanMediaDto.getFileName());
+        teachplanMedia.setMediaId(bindTeachplanMediaDto.getMediaId());
+        teachplanMedia.setCreateDate(LocalDateTime.now());
+        teachplanMediaMapper.insert(teachplanMedia);
     }
 
     private void exchangeOrderBy(Teachplan teachplan, Teachplan teachplanDown) {
