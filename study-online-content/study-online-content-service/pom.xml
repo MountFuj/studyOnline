@@ -61,6 +61,10 @@
            <artifactId>xuecheng-plus-message-sdk</artifactId>
            <version>0.0.1-SNAPSHOT</version>
        </dependency>
+       <dependency>
+           <groupId>com.xuxueli</groupId>
+           <artifactId>xxl-job-core</artifactId>
+       </dependency>
    </dependencies>
 
 </project>
