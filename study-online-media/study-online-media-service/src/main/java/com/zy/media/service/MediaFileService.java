@@ -57,4 +57,6 @@ public interface MediaFileService {
  public RestResponse mergeChunks(Long companyId,String fileMd5,int chunkTotal,UploadFileParamsDto uploadFileParamsDto);
  public File downloadFileFromMinio(String bucket, String objectName);
  public boolean addMediaFilesToMinio(String localFilePath, String mimeType, String bucket, String objectName);
+
+    MediaFiles getFileById(String mediaId);
 }

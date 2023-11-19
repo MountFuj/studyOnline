@@ -27,7 +27,7 @@ public class TeachplanController {
     @ApiImplicitParam(value = "courseId",name = "课程Id",required = true,dataType = "Long",paramType = "path")
     @GetMapping("/teachplan/{courseId}/tree-nodes")
     public List<TeachplanDto> getTreeNodes(@PathVariable Long courseId){
-        return teachplanService.findTeachplayTree(courseId);
+        return teachplanService.findTeachplanTree(courseId);
     }
 
     @ApiOperation("课程计划创建或修改")

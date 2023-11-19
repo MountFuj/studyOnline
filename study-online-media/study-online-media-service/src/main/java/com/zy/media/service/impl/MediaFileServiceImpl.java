@@ -154,6 +154,15 @@ public class MediaFileServiceImpl implements MediaFileService {
         return false;
     }
 
+    @Override
+    public MediaFiles getFileById(String mediaId) {
+        if (StringUtils.isNotBlank(mediaId)) {
+            MediaFiles mediaFiles = mediaFilesMapper.selectById(mediaId);
+            return mediaFiles;
+        }
+        return null;
+    }
+
     //获取文件默认存储目录路径 年/月/日
     private String getDefaultFolderPath() {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");

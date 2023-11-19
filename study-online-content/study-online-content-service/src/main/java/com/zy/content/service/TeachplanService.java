@@ -8,7 +8,7 @@ import com.zy.content.model.po.TeachplanMedia;
 import java.util.List;
 
 public interface TeachplanService {
-    public List<TeachplanDto> findTeachplayTree(long courseId);
+    public List<TeachplanDto> findTeachplanTree(long courseId);
     public void saveTeachplan(SaveTeachplanDto teachplanDto);
     public void deleteTeachplan(Long courseId);
    public void orderByTeachPlan(String moveType,Long teachplanId);

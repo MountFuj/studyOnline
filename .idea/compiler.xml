@@ -7,25 +7,26 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
       </profile>
-      <profile name="Annotation profile for xuecheng-plus-system" enabled="true">
+      <profile name="Annotation profile for study-online-parent" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$PROJECT_DIR$/../../apache-maven-3.6.1/mvn_resp/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
         </processorPath>
+        <module name="xuecheng-plus-message-sdk" />
+        <module name="study-online-content-api" />
+        <module name="study-online-gateway" />
+        <module name="study-online-content-model" />
+        <module name="study-online-media-model" />
+        <module name="xuecheng-plus-generator" />
         <module name="xuecheng-plus-system-service" />
         <module name="xuecheng-plus-system-model" />
         <module name="xuecheng-plus-system-api" />
-        <module name="study-online-content-api" />
         <module name="study-online-media-service" />
-        <module name="study-online-gateway" />
-        <module name="study-online-content-model" />
         <module name="study-online-content-service" />
-        <module name="study-online-base" />
         <module name="study-online-media-api" />
-        <module name="study-online-media-model" />
-        <module name="xuecheng-plus-generator" />
+        <module name="study-online-base" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -56,6 +56,11 @@
            <groupId>com.alibaba.cloud</groupId>
            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
        </dependency>
+       <dependency>
+           <groupId>com.zy</groupId>
+           <artifactId>xuecheng-plus-message-sdk</artifactId>
+           <version>0.0.1-SNAPSHOT</version>
+       </dependency>
    </dependencies>
 
 </project>
