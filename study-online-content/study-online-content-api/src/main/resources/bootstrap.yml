@@ -36,6 +36,9 @@ spring:
           - data-id: freeMarker-config-${spring.profiles.active}.yaml
             group: studyOnline-common
             refresh: true
+          - data-id: feign-${spring.profiles.active}.yaml
+            group: studyOnline-common
+            refresh: true
   profiles:
     active: dev
 

@@ -42,7 +42,7 @@ public class MediaFilesController {
 
     @ApiOperation("上传图片接口")
     @RequestMapping(value = "/upload/coursefile",consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
-    public UploadFileResultDto upload(@RequestPart("filedata")MultipartFile filedata) throws Exception {
+    public UploadFileResultDto upload(@RequestPart("filedata")MultipartFile filedata,@RequestParam(value= "objectName",required=false) String objectName) throws Exception {
        //准备上传文件的信息
         UploadFileParamsDto uploadFileParamsDto = new UploadFileParamsDto();
         //原始文件名称
@@ -60,7 +60,7 @@ public class MediaFilesController {
         //文件路径
         String absolutePath = tempFile.getAbsolutePath();
         //调用service
-        UploadFileResultDto uploadFileResultDto = mediaFileService.uploadFile(companyId, uploadFileParamsDto, absolutePath);
+        UploadFileResultDto uploadFileResultDto = mediaFileService.uploadFile(companyId, uploadFileParamsDto, absolutePath,objectName);
         return uploadFileResultDto;
     }
 }
