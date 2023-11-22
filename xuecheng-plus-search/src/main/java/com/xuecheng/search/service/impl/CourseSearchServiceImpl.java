@@ -1,12 +1,11 @@
 package com.xuecheng.search.service.impl;
 
 import com.alibaba.fastjson.JSON;
-import com.xuecheng.base.model.PageParams;
-import com.xuecheng.base.model.PageResult;
 import com.xuecheng.search.dto.SearchCourseParamDto;
 import com.xuecheng.search.dto.SearchPageResultDto;
 import com.xuecheng.search.po.CourseIndex;
 import com.xuecheng.search.service.CourseSearchService;
+import com.zy.base.model.PageParams;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.lucene.search.TotalHits;

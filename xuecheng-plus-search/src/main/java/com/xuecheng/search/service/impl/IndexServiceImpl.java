@@ -2,9 +2,9 @@ package com.xuecheng.search.service.impl;
 
 import com.alibaba.fastjson.JSON;
 
-import com.xuecheng.base.exception.XueChengPlusException;
 import com.xuecheng.search.po.CourseIndex;
 import com.xuecheng.search.service.IndexService;
+import com.zy.base.exception.StudyOnlineException;
 import lombok.extern.slf4j.Slf4j;
 import org.elasticsearch.action.DocWriteResponse;
 import org.elasticsearch.action.delete.DeleteRequest;
@@ -50,7 +50,7 @@ public class IndexServiceImpl implements IndexService {
   } catch (IOException e) {
    log.error("添加索引出错:{}",e.getMessage());
    e.printStackTrace();
-   XueChengPlusException.cast("添加索引出错");
+   StudyOnlineException.cast("添加索引出错");
   }
   String name = indexResponse.getResult().name();
   System.out.println(name);
@@ -70,7 +70,7 @@ public class IndexServiceImpl implements IndexService {
   } catch (IOException e) {
    log.error("更新索引出错:{}",e.getMessage());
    e.printStackTrace();
-   XueChengPlusException.cast("更新索引出错");
+   StudyOnlineException.cast("更新索引出错");
   }
   DocWriteResponse.Result result = updateResponse.getResult();
   return result.name().equalsIgnoreCase("updated");
@@ -89,7 +89,7 @@ public class IndexServiceImpl implements IndexService {
   } catch (IOException e) {
    log.error("删除索引出错:{}",e.getMessage());
    e.printStackTrace();
-   XueChengPlusException.cast("删除索引出错");
+   StudyOnlineException.cast("删除索引出错");
   }
   //获取响应结果
   DocWriteResponse.Result result = deleteResponse.getResult();

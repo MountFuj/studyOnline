@@ -1,6 +1,7 @@
 package com.xuecheng.search.dto;
 
-import com.xuecheng.base.model.PageResult;
+
+import com.zy.base.model.PageResult;
 import lombok.Data;
 import lombok.ToString;
 
