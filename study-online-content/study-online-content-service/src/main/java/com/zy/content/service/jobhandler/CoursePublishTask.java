@@ -5,8 +5,14 @@ import com.xuecheng.messagesdk.service.MessageProcessAbstract;
 import com.xuecheng.messagesdk.service.MqMessageService;
 import com.xxl.job.core.context.XxlJobHelper;
 import com.xxl.job.core.handler.annotation.XxlJob;
+import com.zy.base.exception.StudyOnlineException;
+import com.zy.content.feignclient.CourseIndex;
+import com.zy.content.feignclient.SearchServiceClient;
+import com.zy.content.mapper.CoursePublishMapper;
+import com.zy.content.model.po.CoursePublish;
 import com.zy.content.service.CoursePublishService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -23,7 +29,11 @@ import java.util.concurrent.TimeUnit;
 @Slf4j
 public class CoursePublishTask extends MessageProcessAbstract {
     @Autowired
+    CoursePublishMapper coursePublishMapper;
+    @Autowired
     CoursePublishService coursePublishService;
+    @Autowired
+    SearchServiceClient searchServiceClient;
     //任务调度入口
     @XxlJob("CoursePublishJobHandler")
     public void coursePublishJobHandler() throws Exception {
@@ -59,11 +69,26 @@ public class CoursePublishTask extends MessageProcessAbstract {
 
     private void saveCourseIndex(MqMessage mqMessage, long courseId) {
         log.debug("保存课程索引信息,课程id:{}",courseId);
-        try {
-            TimeUnit.SECONDS.sleep(2);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+
+        //消息id
+        Long id = mqMessage.getId();
+        //消息处理的service
+        MqMessageService mqMessageService = this.getMqMessageService();
+        //消息幂等性处理
+        int stageTwo = mqMessageService.getStageTwo(id);
+        if(stageTwo > 0){
+            log.debug("课程索引已处理直接返回，课程id:{}",courseId);
+            return ;
         }
+        CoursePublish coursePublish = coursePublishMapper.selectById(courseId);
+        CourseIndex courseIndex = new CourseIndex();
+        BeanUtils.copyProperties(coursePublish,courseIndex);
+        Boolean add = searchServiceClient.add(courseIndex);
+        if(!add){
+            StudyOnlineException.cast("远程调用搜索服务添加课程索引失败");
+        }
+            //保存第二阶段状态
+            mqMessageService.completedStageTwo(id);
     }
 
     private void generateCourseHtml(MqMessage mqMessage, long courseId) {
