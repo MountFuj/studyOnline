@@ -1,0 +1,114 @@
+2023-11-24 09:22:41,356 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field authenticationManager in com.xuecheng.auth.config.AuthorizationServer required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2023-11-24 09:23:56,948 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field authenticationManager in com.xuecheng.auth.config.AuthorizationServer required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2023-11-24 09:47:00,941 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'metaDataSourceAdvisor' could not be registered. A bean with that name has already been defined and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2023-11-24 09:47:18,024 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'metaDataSourceAdvisor' could not be registered. A bean with that name has already been defined and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2023-11-24 09:48:00,458 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'authorizationServerTokenServicesCustom' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'authorizationServerTokenServicesCustom' in your configuration.
+
+2023-11-24 09:48:35,260 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'metaDataSourceAdvisor' could not be registered. A bean with that name has already been defined and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2023-11-24 09:59:08,361 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setUserDetailsService in com.xuecheng.auth.config.DaoAuthenticationProviderCustom required a bean of type 'org.springframework.security.core.userdetails.UserDetailsService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+The following candidates were found but could not be injected:
+	- Bean method 'inMemoryUserDetailsManager' in 'UserDetailsServiceAutoConfiguration' not loaded because @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector; SearchStrategy: all) found beans of type 'org.springframework.security.authentication.AuthenticationManager' authenticationManagerBean and found beans of type 'org.springframework.security.authentication.AuthenticationProvider' daoAuthenticationProviderCustom
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'org.springframework.security.core.userdetails.UserDetailsService' in your configuration.
+
